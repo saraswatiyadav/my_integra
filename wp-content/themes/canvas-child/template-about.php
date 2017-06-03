@@ -27,7 +27,7 @@
                     <!-- <img src="<?php //echo get_stylesheet_directory_uri(); ?>/images/img-about.png" alt="" /> -->
                 </div>
                 <div class="info">
-                <?php the_content() ; 
+                <?php the_content() ; echo "hello";
 
 /*$reviews_count = count( $YWAR_AdvancedReview->get_product_reviews_by_rating( $product->id ) );
 echo "number of reviews" . $reviews_count ;
