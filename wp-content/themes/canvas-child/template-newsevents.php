@@ -38,7 +38,7 @@
                                 	<!-- <h2>Readable content of when looking at its layout.</h2> -->
                                      <h2><?php the_title() ; ?></h2>
                                     <p>
-                                    <?php the_content() ; ?>
+                                    <?php echo "hello"; the_content() ; ?>
                                     <!-- There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour or randomised words which don't look even slightly believable. --></p>
                                 </div>
                             </div>
